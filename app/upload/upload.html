@@ -1,0 +1,10 @@
+<h1>Select file to upload</h1>
+<form name="vm.upload_form">
+    <input
+            type="file"
+            ngf-select
+            ng-model="vm.file"
+            name="file"
+    />
+    <button type="submit" ng-click="vm.submit()">Upload</button>
+</form>
